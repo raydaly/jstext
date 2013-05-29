@@ -8,7 +8,7 @@ var async = require('async');
 browser = new Browser();
 browser.debug = true;
 browser.runScripts = false;
-var site="http://m.washingtonpost.com/";//MUST END WITH /
+var site="http://www.washingtonpost.com/";//MUST END WITH /
 browser.visit(site, function () {
 	var externalScripts=[];
 	var controlScripts=[];
