@@ -1,0 +1,23 @@
+{
+  "name": "jstext",
+  "version": "0.0.2",
+  "description": "Determine the amount of JavaScript versus Text on a web page.",
+  "main": "jstext3.js",
+  "dependencies": {
+    "nimble": "~0.0.2",
+    "async": "~0.2.8",
+    "zombie": "~2.0.0-alpha18",
+    "request": "~2.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/raydaly/jstext"
+  },
+  "author": "Ray Daly",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
